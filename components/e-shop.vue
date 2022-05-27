@@ -68,7 +68,7 @@
                     <blockquote class="blockquote">
                     <h1>KELLYS Spider 10 Black M 29"</h1>
                     </blockquote>
-                    <img class="w-100" src="/asets/bike.png">
+                    <img class="w-100" src="./asets/bike.png">
                     <p></p>
                     <div class="btn-group" role="group" aria-label="Basic example">
   <button type="button" class="btn btn-primary" data-bs-toggle="collapse" href="#collapseExample" >Zistit Viac</button>
