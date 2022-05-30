@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="552367a8-025c-4b5c-86f2-fa57916cc5d0" name="Changes" comment="" />
+    <list default="true" id="552367a8-025c-4b5c-86f2-fa57916cc5d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/scripts/webshop.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asets/Vector.svg" beforeDir="false" afterPath="$PROJECT_DIR$/asets/Vector.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/components/e-shop.vue" beforeDir="false" afterPath="$PROJECT_DIR$/components/e-shop.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stylesheets/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/stylesheets/main.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -45,7 +52,14 @@
       <option name="project" value="LOCAL" />
       <updated>1653663682741</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Test">
+      <created>1653907142468</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653907142468</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

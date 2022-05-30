@@ -29,6 +29,10 @@
     <script src="https://unpkg.com/http-vue-loader"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.4/ScrollTrigger.min.js"></script>
+    
+    
   </head>
 
   <body>
@@ -67,9 +71,9 @@
           </div>
         </div>
       </div>
-      <div class="contentContainer">
+      <div class="contentContainer box-container " id="app-body">
       <br>
-      <div class="title">
+      <div class="title content-block">
         <div id=container>
   <div id=flip>
     <div><div>Predaj</div></div>
@@ -77,40 +81,52 @@
     <div><div>Bazár</div></div>
   </div>
   Bicyklov
+    
+  <div> Trenčín</div>
 </div>
+
       </div>
     
-      <div class="content">
-        <h2>Content</h2>
+      <br>
+      <section class="content-block box">
+        <h1>e-shop</h1>
+
+        <e-shop></e-shop>
+          
       
+      </section>
+      <br>
+      <section class="content-block box">
+        <h2>Content</h2>
+          <footer>
+            Footer
+          </footer>
+      </section>
+        
+
       </div>
       <br>
-      <div class="content">
+      <section class="content-block box">
+        <h2>Content</h2>
+
+      </section>
+      <br>
+      <div class="content-block box">
         <h2>Content</h2>
 
       </div>
       <br>
-      <div class="content">
+      <section class="content-block box">
         <h2>Content</h2>
 
-      </div>
-      <br>
-      <div class="content">
-        <h2>Content</h2>
-
-      </div>
-      <br>
-      <div class="content">
-        <h2>Content</h2>
-
-      </div>
+      </section>
       <br>
     </div>
     </main>
-    <div class="" id="marker"></div>
+    <section class="" id="marker"></section>
     <div class="footer">
     </div>
   </body>
   <script src="./scripts/component-loader.js"></script>
-  <script src="./scripts/layout-control.js"></script>
+  <script src="./scripts/webshop.js"></script>
 </html>
