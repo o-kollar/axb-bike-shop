@@ -42,18 +42,7 @@
   height: 100vh;
 }
 
-.planetCenterOffset {
-  position: absolute;
-  top: calc(var(--planetDiameter) / -2);
-  left: calc(var(--planetDiameter) / -2);
-  height: var(--planetDiameter);
-  width: var(--planetDiameter);
-}
 
-.orbit {
-  position: absolute;
-  top: calc(var(--planetDiameter) * 0.5);
-}
 
 .circle {
   height: var(--planetDiameter);
@@ -62,7 +51,7 @@
 }
 
 .slowRotate {
-  animation: slowRotate infinite 2s linear;
+  animation: slowRotate infinite 40s linear;
 }
 .slowRotate.reverseAnimation {
   animation-direction: reverse;
@@ -73,7 +62,7 @@
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(-360deg);
+    transform: rotate(-180deg);
   }
 }
 
@@ -81,14 +70,14 @@
 #container {
   color:#999;
   text-transform: uppercase;
-  font-size:36px;
+  font-size:5vw;
   font-weight:bold;
   width:100%;
   display:block;
 }
 
 #flip {
-  height:50px;
+  height:7vw;
   overflow:hidden;
 }
 
@@ -126,7 +115,7 @@
 }
 
 .content-block{
-    margin-top: 50px;
+margin-top: 5vw;
 background: rgba(255, 255, 255, 0.2);
 border-radius: 16px;
 box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -138,7 +127,6 @@ width: 98vw;
 }
 
   section {
-
     min-height: 200px;
     margin-bottom: 30px;
     visibility: hidden;
