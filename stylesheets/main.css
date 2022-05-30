@@ -1,26 +1,12 @@
 
-@import url("https://api.fontshare.com/css?f[]=switzer@500&display=swap");
-
 .nav-logo{
     width: 50px; margin-left: 0.8em;
 }
-
-body {
-  margin: 0;
-  overflow-x: hidden;
-  background-color: rgba(167, 190, 183, 0.159);
-}
-
 
 .contentContainer {
   display: flex;
   flex-flow: column nowrap;
   align-items: center;
-}
-
-.content {
-  margin-bottom: 50vh;
-  max-width: 700px;
 }
 
 .footer {
@@ -29,7 +15,7 @@ body {
   flex-flow: column wrap;
   justify-content: Center;
   align-items: center;
-  height: 80vh;
+  height: 20vh;
 }
 
 .parallaxBackground {
@@ -47,13 +33,6 @@ body {
   --planetDiameter:400vmax;
 }
 
-.planetSticker {
-  z-index: -1;
-  position: sticky;
-  height: 0;
-  top: 0;
-}
-
 .planetContainer {
   overflow: hidden;
   position: absolute;
@@ -61,12 +40,6 @@ body {
   left: 0;
   width: 100vw;
   height: 100vh;
-}
-
-.planetOrigin {
-  position: absolute;
-  top: 50%;
-  left: 50%;
 }
 
 .planetCenterOffset {
@@ -89,7 +62,7 @@ body {
 }
 
 .slowRotate {
-  animation: slowRotate infinite 20s linear;
+  animation: slowRotate infinite 2s linear;
 }
 .slowRotate.reverseAnimation {
   animation-direction: reverse;
@@ -104,13 +77,6 @@ body {
   }
 }
 
-@import url('https://fonts.googleapis.com/css?family=Roboto:700');
-
-body {
-  margin:0px;
-  font-family:'Roboto';
-  text-align:center;
-}
 
 #container {
   color:#999;
@@ -157,11 +123,6 @@ body {
   71% {margin-top:0px;}
   99.99% {margin-top:0px;}
   100% {margin-top:-270px;}
-}
-
-p {
-  font-size:12px;
-  color:#999;
 }
 
 .content-block{
