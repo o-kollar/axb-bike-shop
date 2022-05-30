@@ -89,7 +89,7 @@ body {
 }
 
 .slowRotate {
-  animation: slowRotate infinite 40s linear;
+  animation: slowRotate infinite 20s linear;
 }
 .slowRotate.reverseAnimation {
   animation-direction: reverse;
@@ -135,7 +135,7 @@ body {
 }
 
 #flip div:first-child {
-  animation: show 8s linear infinite;
+  animation: show 5s linear infinite;
 }
 
 #flip div div {
