@@ -36,102 +36,66 @@
   </head>
 
   <body>
-    <nav class="navbar sticky-top">
-      <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img class="nav-logo" src="./asets/logo.svg" /></a>
-          <div id="navbarNav">
-              <ul class="navbar-nav">
-                  <li class="nav-item">
-                      <a><span class="material-icons">
-                        shopping_cart
-                        </span></a>
-                  </li>
-                  <li class="nav-item">
-                      <a data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight"
-                          ><span class="nav-icon" data-feather="menu"></span
-                      ></a>
-                  </li>
-              </ul>
-          </div>
+    
+    <div class="container">
+      <div class="textSection firstPage">
+        <h2>
+          Parallaxy Images
+        </h2>
+        <p> Yeah I'm trying parallaxy images with gsap.</p>
       </div>
-  </nav>
-    <div class="parallaxBackground" id="background">
-    </div> 
-    <main>
-      <div class="planetSticker">
-        <div class="planetContainer">
-          <div class="planetOrigin">
-            <div class="planetCenterOffset">
-              <div class="orbit" id="orbit">
-                <div class="slowRotate" id="slowRotater">
-                  <div class="circle" style="
-                    height: var(--planetDiameter);
-                    width: var(--planetDiameter);
-                    background-image: url('./asets/Vector.png');
-                  
-                  "></div>
-                </div>
-              </div>
-            </div>
-          </div>
+      <div class="imageSection a shuttleContainer">
+        <div class="img parallax">
+          <div class="image" role="img" aria-label="cut citrus fruits." style="background-image:url('https://source.unsplash.com/ezSFnAFi9hY/500x500')"></div>
+        </div>
+        <div class="img parallax" >
+          <div class="image" style="background-image:url('https://source.unsplash.com/TIGDsyy0TK4/500x500')" role='img' aria-label="sliced mango. "></div>
         </div>
       </div>
-      <div class="contentContainer gs_reveal-container " id="app-body">
-      <br>
-      <div class="title content-block">
-        <div id=container>
-  <div id=flip>
-    <div><div>Predaj</div></div>
-    <div><div>Servis</div></div>
-    <div><div>Bazár</div></div>
-  </div>
-  Bicyklov
-    
-  <div> Trenčín</div>
-</div>
-
+      <div class="textSection midPage gs_reveal">
+        <h2>
+          How was that?
+        </h2>
+        <p>U hungry for some more cus there's some leftovers too!</p>
       </div>
-    
-      <br>
-      <section class="content-block gs_reveal gs_reveal_fromLeft">
-        <h1>e-shop</h1>
-
-        <e-shop></e-shop>
-          
-      
-      </section>
-      <br>
-      <section class="content-block gs_reveal gs_reveal_fromLeft">
-        <h2>Content</h2>
-          <footer>
-            Footer
-          </footer>
-      </section>
-        
-
+      <div class="imageSection b shuttleContainer">
+        <div class="img parallax gs_reveal">
+          <div class="image" style="background-image:url('https://source.unsplash.com/TdDtTu2rv4s/500x500')" role='img' aria-label="a bunch of blueberries. "></div>
+        </div>
+        <div class="img parallax gs_reveal">
+          <div class="image" style="background-image:url('https://source.unsplash.com/eudGUrDdBB0/500x500')" role='img' aria-label="a pineapple sitting on a table. "></div>
+        </div>
+        <div class="img parallax gs_reveal">
+          <div class="image" style="background-image:url('https://source.unsplash.com/eJH4f1rlG7g/500x500')" role='img' aria-label="frozen raspberries. "></div>
+        </div>
+        <div class="img parallax gs_reveal">
+          <div class="image" style="background-image:url('https://source.unsplash.com/24RUrLSW1HI/500x500')" role='img' aria-label="a sliced strawberry. "></div>
+        </div>
       </div>
-      <br>
-      <section class="content-block gs_reveal gs_reveal_fromRight">
-        <h2>Content</h2>
-
-      </section>
-      <br>
-      <div class="content-block gs_reveal gs_reveal_fromLeft">
-        <h2>Content</h2>
-
+      <div class=" heading_large textSection firstPage gs_reveal">
+        <h2>
+          Why tho?
+        </h2>
+        <p>Basically I wanted to steal it from this incredible website, but do it worse lol</p>
+        <p>
+          <a href="https://robin-noguier.com/" target="_blanck">Robert Noguier's Portfolio</a>
+        </p>
       </div>
-      <br>
-      <section class="content-block gs_reveal gs_reveal_fromRight">
-        <h2>Content</h2>
-
-      </section>
-      <br>
     </div>
-    </main>
-    <section class="" id="marker"></section>
-    <div class="footer">
-    </div>
-  </body>
+              <section id="sec02"> 
+                
+                <div class="fromLeft">
+                </div>
+    
+              </section>
+              <section> 
+                <h1>End</h1>
+              </section>
+
+
+
+              </body>
+
   <script src="./scripts/component-loader.js"></script>
   <script src="./scripts/webshop.js"></script>
 </html>
