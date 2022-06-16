@@ -6,7 +6,7 @@ let tl = gsap.timeline({
     start: "center center",
     end: "+=150%",
     scrub: 1,
-    markers: true,
+   
   },
   defaults:{duration:1, ease:'none'}
 });
@@ -132,13 +132,15 @@ function animateFrom(elem, direction) {
 	elem.style.transform = "translate(" + x + "px, " + y + "px)";
 	elem.style.opacity = "0";
 	gsap.fromTo(elem, {x: x, y: y, autoAlpha: 0}, {
-	  duration: 5, 
+	  duration: 1.5, 
 	  x: 0,
 	  y: 0, 
 	  autoAlpha: 1, 
 	  ease: "expo", 
-	  overwrite: "auto"
+	  overwrite: "auto",
+	  stagger: 0.1
 	});
+	
   }
   
   function hide(elem) {
@@ -160,5 +162,45 @@ function animateFrom(elem, direction) {
 	});
   });
   
-  
 
+  var mybutton = document.getElementById('scrollTrigger');
+  var navbar = document.getElementById('navbar-example2');
+  
+  window.onscroll = function () {
+	  scrollFunction();
+  };
+  
+  function scrollFunction() {
+	  if (
+		  document.body.scrollTop > 20 ||
+		  document.documentElement.scrollTop > 20
+	  ) {
+		  mybutton.style.display = 'block';
+		  navbar.style.display = 'block';
+	  } else {
+		  mybutton.style.display = 'none';
+		  navbar.style.display = 'none';
+		  
+	  }
+  }
+  function topFunction() {
+	  document.body.scrollTop = 0;
+	  document.documentElement.scrollTop = 0;
+  }
+  
+  var acc = document.getElementsByClassName('accordion');
+  var i;
+  
+  for (i = 0; i < acc.length; i++) {
+	  acc[i].addEventListener('click', function () {
+		  this.classList.toggle('active');
+		  var panel = this.nextElementSibling;
+		  if (panel.style.display === 'block') {
+			  panel.style.display = 'none';
+		  } else {
+			  panel.style.display = 'block';
+			  panel.scrollIntoView();
+		  }
+	  });
+  };
+  $('.alert').alert()

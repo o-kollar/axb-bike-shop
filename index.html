@@ -35,65 +35,85 @@
     
   </head>
 
-  <body>
+   <body data-bs-spy="scroll"
+  data-bs-target="#navbar-example2"
+  data-bs-offset="0"
+  class="scrollspy-example"
+  tabindex="0">
+    <button onclick="topFunction()" id="scrollTrigger" title="Go to top">
+      <span class="material-icons">expand_less</span>
+  </button>
+    <nav
+    id="navbar-example2"
+    class="navbar px-3 sticky-top"
+>
+    <ul class="nav">
+        <li class="nav-item">
+            <a class="nav-link" href="#oNas">Prvá Sekcia</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#kurzy">Druhá Sekcia</a>
+        </li>
+    </ul>
+</nav>
     
     <div class="container">
       <div class="textSection firstPage">
-        <h2>
-          Parallaxy Images
-        </h2>
-        <p> Yeah I'm trying parallaxy images with gsap.</p>
+        <h1>
+          Moja Cesta
+        </h1>
       </div>
       <div class="imageSection a shuttleContainer">
         <div class="img parallax">
-          <div class="image" role="img" aria-label="cut citrus fruits." style="background-image:url('https://source.unsplash.com/ezSFnAFi9hY/500x500')"></div>
+          <div class="image" role="img" aria-label="cut citrus fruits." style="background-image:url('https://pbs.twimg.com/media/D5fVzmeXoAQeXYm.jpg')"></div>
         </div>
         <div class="img parallax" >
-          <div class="image" style="background-image:url('https://source.unsplash.com/TIGDsyy0TK4/500x500')" role='img' aria-label="sliced mango. "></div>
+          <div class="image" style="background-image:url('https://i.pinimg.com/originals/76/7e/25/767e2527f94e6779faf8098e535fc0bc.png')" role='img' aria-label="sliced mango. "></div>
         </div>
       </div>
-      <div class="textSection midPage gs_reveal">
-        <h2>
-          How was that?
+      <div id="oNas" class="textSection midPage">
+        <h2 class="gs_reveal">
+          Prvá Sekcia
         </h2>
-        <p>U hungry for some more cus there's some leftovers too!</p>
+        <p class="gs_reveal" >Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
       </div>
       <div class="imageSection b shuttleContainer">
-        <div class="img parallax gs_reveal">
-          <div class="image" style="background-image:url('https://source.unsplash.com/TdDtTu2rv4s/500x500')" role='img' aria-label="a bunch of blueberries. "></div>
+        <div class="img parallax">
+          <div class="image" style="background-image:url('https://pro2-bar-s3-cdn-cf2.myportfolio.com/824a8a6b-6737-4c17-a6d5-baa96d97d160/346f976a-5f07-473e-b188-a602ef9e824a_car_202x158.jpg?h=66f45cc3ae15673b5837e67f85bda2b9')" role='img' aria-label="a bunch of blueberries. "></div>
         </div>
-        <div class="img parallax gs_reveal">
-          <div class="image" style="background-image:url('https://source.unsplash.com/eudGUrDdBB0/500x500')" role='img' aria-label="a pineapple sitting on a table. "></div>
+        <div class="img parallax">
+          <div class="image" style="background-image:url('https://images.squarespace-cdn.com/content/v1/55b76e9ee4b03c58b8546b0c/1589791183324-DGUJ55BN5Z404VS53IYJ/cover-davidsfonds1.3.jpg?format=2500w')" role='img' aria-label="frozen raspberries. "></div>
         </div>
-        <div class="img parallax gs_reveal">
-          <div class="image" style="background-image:url('https://source.unsplash.com/eJH4f1rlG7g/500x500')" role='img' aria-label="frozen raspberries. "></div>
-        </div>
-        <div class="img parallax gs_reveal">
-          <div class="image" style="background-image:url('https://source.unsplash.com/24RUrLSW1HI/500x500')" role='img' aria-label="a sliced strawberry. "></div>
+        <div class="img parallax">
+          <div class="image" style="background-image:url('https://cdn.myportfolio.com/902c73a2c08f2a1033e739e412bf369c/3d155a81-685d-4d18-9fb0-c814b3cb000b_car_1x1.jpg?h=45eb858878ea95660456ca60451331e9')" role='img' aria-label="a sliced strawberry. "></div>
         </div>
       </div>
-      <div class=" heading_large textSection firstPage gs_reveal">
-        <h2>
-          Why tho?
+      <div  id="kurzy"  class="heading_large textSection firstPage ">
+        <h2 class="gs_reveal">
+        Druhá Sekcia
         </h2>
-        <p>Basically I wanted to steal it from this incredible website, but do it worse lol</p>
+        <pclass="gs_reveal">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
         <p>
-          <a href="https://robin-noguier.com/" target="_blanck">Robert Noguier's Portfolio</a>
         </p>
       </div>
-    </div>
+    </div> <h1 class="gs_reveal">Podrobný popis</h1>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
               <section id="sec02"> 
-                
                 <div class="fromLeft">
+                  <div class="textSection midPage">
+                    <h1>
+                      Moja Cesta
+                    </h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                  </div>
                 </div>
-    
               </section>
-              <section> 
-                <h1>End</h1>
-              </section>
-
-
-
+              
               </body>
 
   <script src="./scripts/component-loader.js"></script>
